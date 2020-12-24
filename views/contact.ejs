@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>simple&innovative websites, financial spreadsheets development</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+    <link href="css/all.min.css" rel="stylesheet" />
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+</head>
+<!--
+
+Simple House
+
+https://templatemo.com/tm-539-simple-house
+
+-->
+<body> 
+
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/simple-house-01.jpg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" /> 
+							<div class="tm-site-text-box">
+								<h6 class="tm-site-description">Lets Go To The Global Pyramidion</h6>	
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="/" class="tm-nav-link active">Home</a></li>
+								<li class="tm-nav-li"><a href="/about" class="tm-nav-link">About</a></li>
+								<li class="tm-nav-li"><a href="/contact" class="tm-nav-link">Contact</a></li>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main>
+			<header class="row tm-welcome-section">
+				<h2 class="col-12 text-center tm-section-title">Contact Page</h2>
+				<p class="col-12 text-center">Feel free to contact us on any of our channels for more enquiries.</p>
+			</header>
+
+			<div class="tm-container-inner-2 tm-contact-section">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="img/img-01jjj.png" alt="Image" class="img-fluid tm-person-img" />
+					</div>
+					<div class="col-md-6">
+						<div class="tm-address-box">
+							<a href="tel:080-090-0110" class="tm-contact-link">
+								<i class="fas fa-phone tm-contact-icon"></i>234-8029-7631-90
+							</a>
+							<a href="mailto:info@company.co" class="tm-contact-link">
+								<i class="fas fa-envelope tm-contact-icon"></i>pyeramid.cc@gmail.com
+							</a>
+							<div class="tm-contact-social">
+								<a href="https://www.facebook.com/Pyeramid-104204154524098" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            
+<!-- How to change your own map point
+	1. Go to Google Maps
+	2. Click on your location point
+	3. Click "Share" and choose "Embed map" tab
+	4. Copy only URL and paste it within the src="" field below
+-->
+			<div class="tm-container-inner-2 tm-map-section">
+				<div class="row">
+					<div class="col-12">
+						<div class="tm-map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8069790.435797271!2d8.677457!3d9.0338725!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e6157ce3eeda9%3A0x32af1c368be32dfc!2sFederal%20Capital%20Territory!5e0!3m2!1sen!2sng!4v1607912556582!5m2!1sen!2sng" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tm-container-inner-2 tm-info-section">
+				<div class="row">
+					<!-- FAQ -->
+					<div class="col-12 tm-faq">
+						<h2 class="text-center tm-section-title">FAQs</h2>
+						<div class="tm-accordion">
+							<button class="accordion">1. Is the web development fee listed on the website only for development?</button>
+							<div class="panel">
+							  <p>No, it covers 1yr hosting and 3times maintenance.</p>
+							</div>
+							
+							<button class="accordion">2. Can i access services on your website using other currency not listed on the site?</button>
+							<div class="panel">
+							  <p>For now no.</p>
+							</div>
+							
+							<button class="accordion">3. Will i have access to my website's control panel?</button>
+							<div class="panel">
+							  <p>For E-commerce Websites,yes, but no for portfolio websites.</p>
+							</div>
+							
+						</div>	
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="tm-footer text-center">
+			<p>Copyright &copy;
+            
+            | Design: <a rel="nofollow" href="">Pyeramid</a></p>
+		</footer>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+			
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var panel = this.nextElementSibling;
+			    if (panel.style.maxHeight) {
+			      panel.style.maxHeight = null;
+			    } else {
+			      panel.style.maxHeight = panel.scrollHeight + "px";
+			    }
+			  });
+			}	
+		});
+	</script>
+</body>
+</html>
